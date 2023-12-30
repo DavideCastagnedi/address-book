@@ -1,0 +1,39 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Mario",
+      "surname": "Rossi",
+      "email": "mario.rossi@gmail.com",
+      "mobile": "0000000000"
+    },
+    {
+      "id": "2",
+      "name": "Luigi",
+      "surname": "Verdi",
+      "email": "luigi.verdi@gmail.com",
+      "mobile": "1111111111"
+    },
+    {
+      "id": "3",
+      "name": "Marco",
+      "surname": "Neri",
+      "email": "marco.neri@gmail.com",
+      "mobile": "2222222222"
+    },
+    {
+      "id": "4",
+      "name": "Giuseppe",
+      "surname": "Bianchi",
+      "email": "giuseppe.bianchi@gmail.com",
+      "mobile": "3333333333"
+    },
+    {
+      "id": "5",
+      "name": "Davide",
+      "surname": "Gialli",
+      "email": "davide.gialli@gmail.com",
+      "mobile": "4444444444"
+    }
+  ]
+}

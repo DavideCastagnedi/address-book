@@ -1,0 +1,30 @@
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 col-lg-6">
+      <div class="border p-3">
+        <h2 class="text-center">Contact Details</h2>
+        <form #myForm="ngForm" (submit)="onSubmit()" class="mx-auto" style="max-width: 400px;">
+          <div class="form-group">
+            <label for="id">ID:</label>
+            <input type="text" class="form-control" id="id" name="id" [(ngModel)]="contact.id">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" [(ngModel)]="contact.name">
+            <label for="surname">Surname:</label>
+            <input type="text" class="form-control" id="surname" name="surname" [(ngModel)]="contact.surname">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" [(ngModel)]="contact.email">
+            <label for="mobile">Mobile:</label>
+            <input type="tel" class="form-control" id="mobile" name="mobile" [(ngModel)]="contact.mobile">
+
+
+          </div>
+          <br>
+          <input type="submit" class="btn btn-primary" value="Add Contact">
+          <span style="margin-right: 10px;"></span>
+          <span style="margin-right: 10px;"></span>
+          <a routerLink="/" class="btn btn-dark">Close</a>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
